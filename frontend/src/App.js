@@ -6,6 +6,7 @@ import HomePage from './HomePage';
 import SearchResults from './SearchResults';
 import BookingForm from './BookingForm';
 import PNRStatus from './PNRStatus';
+import TrainsPage from './TrainsPage';
 import './styles.css';
 
 const App = () => {
@@ -362,7 +363,7 @@ const App = () => {
           
           <nav className="hidden md:flex space-x-8">
             <a href="/" className="font-medium hover:text-green-200">Home</a>
-            {/* <a href="/trains" className="font-medium hover:text-green-200">Trains</a> */}
+            <a href="/trains" className="font-medium hover:text-green-200">Trains</a> 
             <a href="/pnr" className="font-medium hover:text-green-200">PNR Status</a>
             {isAuthenticated && (
               <a href="/bookings" className="font-medium hover:text-green-200">My Bookings</a>
@@ -462,6 +463,11 @@ const App = () => {
         <Route path="/" element={
           <Layout>
             <HomePage />
+          </Layout>
+        } />
+        <Route path="/trains" element={
+          <Layout>
+            <TrainsPage />
           </Layout>
         } />
         

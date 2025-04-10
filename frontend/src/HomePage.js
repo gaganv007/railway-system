@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Search, Calendar, Users, MapPin, ArrowRight, Clock } from 'lucide-react';
+import { Search, Calendar, Users, MapPin, ArrowRight} from 'lucide-react';
 
 const HomePage = () => {
   const [fromStation, setFromStation] = useState('');
