@@ -124,9 +124,9 @@ GET /api/bookings/pnr/:pnrNumber: Check PNR status
 Usage
 ```
 Register a new account or log in
-Search for trains by entering source, destination and date
+Search for trains by entering source, destination, and date
 Choose a train from the search results
 Enter passenger details and make payment
-View booking confirmation with PNR
-Check booking status or cancel from "My Bookings" page
+View the booking confirmation with PNR
+Check booking status or cancel from the "My Bookings" page
 ```
