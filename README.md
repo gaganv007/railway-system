@@ -34,7 +34,7 @@ git clone https://github.com/yourusername/railway-ticketing-system.git
 cd railway--system
 ```
 2. Set up the backend
-Navigate to backend directory
+Navigate to the backend directory
 ```
 cd backend
 ```
@@ -44,7 +44,7 @@ cd backend
 npm install
 ```
 
-# Create .env file with your database credentials
+# Create a .env file with your database credentials
 ```
 echo "PORT=5000
 DB_HOST=localhost
